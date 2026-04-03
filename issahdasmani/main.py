@@ -30,3 +30,14 @@ def user_name():
     name = input("Enter your name:")
     print("your name is" + name)
 user_name()
+
+
+x = 2
+y = 3
+z = x + y
+print(z)
+
+x =input ("what is x")
+y =input("what is y")
+z =int(x) + int(y)
+print(z)
