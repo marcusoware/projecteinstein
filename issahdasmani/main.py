@@ -64,7 +64,7 @@ print(calculator(5,6,"add"))
 
 def  whileloop():
     n=0
-    while n<5:
+    while n<6:
         print("meow")
         n+=1
 whileloop()
