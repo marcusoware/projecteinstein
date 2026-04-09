@@ -82,9 +82,10 @@ def calculator():
    return "invalid"
 #print(calculator())
 
-def whileloop():
-    n = 0
-    while n < 0:
-      print("meow")
-    n+= 1
-whileloop()
+def cat_sound():
+ catcry = 0 
+ while catcry < 5:
+  print("meow")
+  catcry += 1
+
+cat_sound()
