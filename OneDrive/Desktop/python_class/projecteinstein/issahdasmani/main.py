@@ -29,3 +29,4 @@ def days_of_the_week(day):
        return "invalid input"
 print(days_of_the_week("Friday"))
     
+print("hello team")
