@@ -30,3 +30,4 @@ def days_of_the_week(day):
 print(days_of_the_week("Friday"))
     
 print("hello team")
+print("meoow")
