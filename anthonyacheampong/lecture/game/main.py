@@ -1,0 +1,40 @@
+import random 
+
+def main():
+    state = ['rock', 'paper', 'scissors' ]
+    user_input = input("Enter one item : ")
+    human = take_userinput(user_input, state)
+    computer = make_computer_choice(state)
+    m_condition = condition(human, make_computer_choice )
+    print("you choice is " + human + " computer choice is " +  computer + " the resuls is " + m_condition)
+    
+    
+def take_userinput(user_input, state):
+   #pass
+   #rock, paper, scissors
+        while user_input not in state:
+            user_input = input("choose one of the items (rock, paper, scissors) : ")
+        return user_input
+ 
+def condition(user_input, computer_choice):
+    if user_input == "rock" and computer_choice == "scissors":
+        return "won"
+    elif user_input == "scissors" and computer_choice == "paper" :
+        return "won"
+    elif user_input == "paper" and computer_choice == "rock":
+        return "won"
+    elif user_input == "scissors" and computer_choice == "rock" :
+        return "loss"
+    elif user_input == "rock" and computer_choice == "paper" :
+        return "loss"
+    elif user_input == "paper" and computer_choice == "scissors" :
+        return "loss"
+    else :
+        return "tie"
+   
+
+def make_computer_choice(state):
+    computer_choice = random.choice(state)
+    return computer_choice
+
+main()
