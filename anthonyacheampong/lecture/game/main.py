@@ -37,4 +37,46 @@ def make_computer_choice(state):
     computer_choice = random.choice(state)
     return computer_choice
 
+#main()
+
+
+import random
+
+
+def main():
+    guess = list(range(1, 21))
+    user_input = int(input ("Enter a number : "))
+    computer = computer_choice(guess)
+    
+    
+    while True: 
+        human = take_user_input(guess)
+        m_condition = conditions(human, computer)
+    
+        if conditions(human, computer):
+         break 
+    
+#accepting user input
+def take_user_input(guess):
+    user_input = None
+    while user_input not in guess :
+        user_input = int(input ("choose a number : "))
+    return user_input
+
+def conditions(user_input, computer):
+    if user_input > computer :
+        print("choose lower")
+        return False
+    elif user_input < computer :
+        print (" choose greater")
+        return False
+    else :
+        print(" Nice guess ")
+        return True
+        
+#capture the numbers
+def computer_choice(guess):
+    computer_choice = random.choice(guess)
+    return computer_choice
+
 main()
