@@ -4,4 +4,4 @@ def meaow():
     
      print("meaow")
      n += 1
-meaow()    
+print(meaow())   
