@@ -8,10 +8,10 @@
 
 #3RD TASK
 #taking user name and making uppercase
-name = input("Enter the Your Name : ")
-ls = name.upper()
-name.upper()
-print(f"Hello {ls}")
+# name = input("Enter the Your Name : ")
+# ls = name.upper()
+# name.upper()
+# print(f"Hello {ls}")
 
 #4th task
 #function to take userinput 
@@ -105,10 +105,54 @@ print(f"Hello {ls}")
 
 # print(calcute())
 
-def whileloop():
-    n = 0
-    while n < 5:
-        print("Meooow")
-        n+=1
+# def whileloop():
+#     n = 0
+#     while n < 5:
+#         print("Meooow")
+#         n+=1
     
-whileloop()   
+# whileloop()   
+
+# for n in ("Hello"):
+#     print(n)
+#     print("HELLO")
+# def username():
+#     username = input("Enter the Your First Name : ")
+#     while len(username)< 7:
+#         print("You Enter a name less than 7")
+#         username = input("Enter the Your First Name : ")
+#     print(username) 
+    
+# username()
+
+# def mod():
+#     a = int(input("Enter number : "))
+#     while a % 2 == 0:
+#         print("STOP WHEN IS ODD NUMBER")
+#         a = int(input("Enter number : ")) 
+
+     
+# mod()
+#arrays
+# COURSES= ['CyberSecurity', 'Networking','Software Engeering', 'Data Scientist']
+# print(COURSES[])
+fruits = ["Mangoes","Pineapple","Banana","Apple","Pawpaw"]
+print(fruits)
+print(fruits[0:4])
+print(len(fruits) - 1)
+# vegetables = ["Pepper","Onion","Okro",""]
+#vegetable = fruits
+# fruits[2] = "SugarCane"
+# vegetable = list(fruits)
+# print(vegetable)
+
+#object 
+
+# students = {
+#     "Hermione" = "Gryffindor",
+#     "Harry" = ""
+# }
+fruits = ["Mangoes","Pineapple","Banana","Apple","Pawpaw"]
+
+for a in fruits:
+    print(a)
