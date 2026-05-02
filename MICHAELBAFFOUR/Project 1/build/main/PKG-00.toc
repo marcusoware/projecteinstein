@@ -1,5 +1,5 @@
 ('C:\\Users\\new '
- 'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project '
+ 'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
  '1\\build\\main\\main.pkg',
  {'BINARY': True,
   'DATA': True,
@@ -13,32 +13,32 @@
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
    'C:\\Users\\new '
-   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project '
+   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
    '1\\build\\main\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'C:\\Users\\new '
-   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project '
+   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
    '1\\build\\main\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
    'C:\\Users\\new '
-   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project '
+   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
    '1\\build\\main\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
    'C:\\Users\\new '
-   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project '
+   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
    '1\\build\\main\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
    'C:\\Users\\new '
-   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project '
+   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
    '1\\build\\main\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
    'C:\\Users\\new '
-   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project '
+   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
    '1\\build\\main\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
@@ -108,7 +108,7 @@
    'BINARY'),
   ('base_library.zip',
    'C:\\Users\\new '
-   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project '
+   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
    '1\\build\\main\\base_library.zip',
    'DATA')],
  'python314.dll',

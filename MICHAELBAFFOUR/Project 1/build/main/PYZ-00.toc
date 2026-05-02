@@ -1,5 +1,5 @@
 ('C:\\Users\\new '
- 'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project '
+ 'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
  '1\\build\\main\\PYZ-00.pyz',
  [('__future__',
    'C:\\Users\\new '
@@ -508,6 +508,11 @@
   ('urllib.response',
    'C:\\Users\\new '
    'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('utils',
+   'C:\\Users\\new '
+   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
+   '1\\utils.py',
    'PYMODULE'),
   ('zipfile',
    'C:\\Users\\new '

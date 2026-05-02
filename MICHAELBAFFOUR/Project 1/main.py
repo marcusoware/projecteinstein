@@ -1,19 +1,24 @@
 #taking userinput
+from utils import register_std 
 user_input = []
 def main():
-    user_name = input('Enter your name: ')
-    print(user_input)
-    user_age = input('Enter your age: ')
-    print(user_input)
-    user_email = input('Enter your email: ')
-    print(user_input)
-    user_fees = float(input('Enter your fees: '))
-    print(user_input)
-    user_location = input('Enter your city/address: ')
-    print(user_input)
-
-with open("main.txt", "a") as file:
-        file.write(user_input+"\n")
-file.close()
+    while True:
+     print("--- WELCOME TO GREATMIKE ACADEMY ---")
+     print("1. REGISTER STUDENT")
+     print("2. SEARCH FOR STUDENT")
+     print("3. PAY FEES")
+     print("4. EXIT")
+    
+     option = input ("Choose an option(1-4): ")
+    #taking options
+     if option == "1":
+        print("--- WELCOME TO REGISTRATION PORTAL ---")
+        register_std()
+     elif option == "4":
+        print("EXITING PROGRAM")
+        break
+     else:
+        print("Invalid option. Please try again")
+       
 
 main()

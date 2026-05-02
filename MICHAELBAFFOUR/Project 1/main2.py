@@ -41,13 +41,6 @@
 
 # if __name__ == "__main__":
 #     main()
-import time
-start = time. time()
-n = 1
-while n < 1000:
-    print(n)
-    n += 1
-end = time.time()
-print ("'elapse time =' end - start")
+
 
 

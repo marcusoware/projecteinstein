@@ -1,8 +1,8 @@
 (['C:\\Users\\new '
-  'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project '
+  'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
   '1\\main.py'],
  ['C:\\Users\\new '
-  'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project 1'],
+  'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project 1'],
  [],
  [('C:\\Users\\new '
    'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
@@ -525,13 +525,9 @@
    'C:\\Users\\new '
    'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_opcode_metadata.py',
    'PYMODULE'),
-  ('_py_warnings',
+  ('codeop',
    'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_py_warnings.py',
-   'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tracemalloc.py',
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\codeop.py',
    'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\new '
@@ -549,9 +545,18 @@
    'C:\\Users\\new '
    'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\stringprep.py',
    'PYMODULE'),
-  ('codeop',
+  ('_py_warnings',
    'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\codeop.py',
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_py_warnings.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('utils',
+   'C:\\Users\\new '
+   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
+   '1\\utils.py',
    'PYMODULE')],
  [('python314.dll',
    'C:\\Users\\new '
@@ -609,12 +614,76 @@
  [],
  [('base_library.zip',
    'C:\\Users\\new '
-   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\Project '
+   'admiin\\Desktop\\pythonLearn\\projecteinstein\\michaelbaffour\\project '
    '1\\build\\main\\base_library.zip',
    'DATA')],
- [('genericpath',
+ [('linecache',
    'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\genericpath.py',
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\linecache.py',
+   'PYMODULE'),
+  ('functools',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\functools.py',
+   'PYMODULE'),
+  ('traceback',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\traceback.py',
+   'PYMODULE'),
+  ('_weakrefset',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_weakrefset.py',
+   'PYMODULE'),
+  ('abc',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\abc.py',
+   'PYMODULE'),
+  ('keyword',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\keyword.py',
+   'PYMODULE'),
+  ('sre_compile',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_compile.py',
+   'PYMODULE'),
+  ('collections',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\collections\\__init__.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\ntpath.py',
+   'PYMODULE'),
+  ('codecs',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\codecs.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_collections_abc.py',
+   'PYMODULE'),
+  ('types',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\types.py',
+   'PYMODULE'),
+  ('weakref',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\weakref.py',
+   'PYMODULE'),
+  ('sre_parse',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_parse.py',
+   'PYMODULE'),
+  ('locale',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\locale.py',
+   'PYMODULE'),
+  ('os',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\os.py',
+   'PYMODULE'),
+  ('copyreg',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\copyreg.py',
    'PYMODULE'),
   ('re._parser',
    'C:\\Users\\new '
@@ -635,62 +704,6 @@
   ('re',
    'C:\\Users\\new '
    'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\re\\__init__.py',
-   'PYMODULE'),
-  ('warnings',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\warnings.py',
-   'PYMODULE'),
-  ('codecs',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\codecs.py',
-   'PYMODULE'),
-  ('_weakrefset',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_weakrefset.py',
-   'PYMODULE'),
-  ('stat',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\stat.py',
-   'PYMODULE'),
-  ('io',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\io.py',
-   'PYMODULE'),
-  ('abc',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\abc.py',
-   'PYMODULE'),
-  ('operator',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\operator.py',
-   'PYMODULE'),
-  ('types',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\types.py',
-   'PYMODULE'),
-  ('locale',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\locale.py',
-   'PYMODULE'),
-  ('functools',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\functools.py',
-   'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_constants.py',
-   'PYMODULE'),
-  ('os',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\os.py',
-   'PYMODULE'),
-  ('reprlib',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\reprlib.py',
-   'PYMODULE'),
-  ('ntpath',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\ntpath.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\new '
@@ -1184,51 +1197,43 @@
    'C:\\Users\\new '
    'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('enum',
+  ('posixpath',
    'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\enum.py',
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\posixpath.py',
+   'PYMODULE'),
+  ('io',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\io.py',
+   'PYMODULE'),
+  ('warnings',
+   'C:\\Users\\new '
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\warnings.py',
    'PYMODULE'),
   ('heapq',
    'C:\\Users\\new '
    'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\heapq.py',
    'PYMODULE'),
-  ('_collections_abc',
+  ('enum',
    'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\_collections_abc.py',
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\enum.py',
    'PYMODULE'),
-  ('collections',
+  ('reprlib',
    'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\collections\\__init__.py',
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\reprlib.py',
    'PYMODULE'),
-  ('weakref',
+  ('stat',
    'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\weakref.py',
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\stat.py',
    'PYMODULE'),
-  ('linecache',
+  ('operator',
    'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\linecache.py',
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\operator.py',
    'PYMODULE'),
-  ('keyword',
+  ('sre_constants',
    'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\keyword.py',
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_constants.py',
    'PYMODULE'),
-  ('sre_parse',
+  ('genericpath',
    'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_parse.py',
-   'PYMODULE'),
-  ('copyreg',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\copyreg.py',
-   'PYMODULE'),
-  ('sre_compile',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sre_compile.py',
-   'PYMODULE'),
-  ('posixpath',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\posixpath.py',
-   'PYMODULE'),
-  ('traceback',
-   'C:\\Users\\new '
-   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\traceback.py',
+   'admiin\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\genericpath.py',
    'PYMODULE')])
