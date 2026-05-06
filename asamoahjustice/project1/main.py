@@ -1,4 +1,5 @@
 import json
+
 #global hashes
 separator = "=" * 45
 divider = "-" * 45
@@ -40,36 +41,54 @@ def main():
 
 #function for taking user's info
 def take_userinfo():
+    while True:
+        try:
+            name, age, contact, location = input("\nPlease enter your name, age, contact and location. " \
+            "Separate each input with a space berfore" \
+            " the next input(eg. Jonh 26 02560000 Adum): ").split()
+            age = int(age)
+            location = location.upper()
+            name = name.upper()
+            
+            break #if everything goes throug, break out of the loop
+
+        except Exception as e:
+            print(f"{e}: Please enter a valid input(NB: age must be a number)")
+
+
     try:
-        name, age, contact, location = input("\nPlease enter your name, age, contact and location. Separate each input with a space berfore" \
-    " the next input(eg. Jonh 26 02560000 Adum): ").split()
-        age = int(age)
-        location = location.upper()
-        name = name.upper()
+        #initialinzing user info in a list
+        student_info = []
 
-    except Exception as e:
-        print(f"{e}: Please enter a valid input(NB: age must be a number)")
+        #reading old saved student info into all students so they are not over written
+        with open("school_system.json", "r") as file:
+            all_students = json.load(file)
 
-    #initialinzing user info in a list
-    student_info = []
 
-    #storing each student info in a dictionary
+    except FileNotFoundError:
+        all_students = []
+
+
+    #adding new student info to old saved student info
+    all_students.append({
+    "name":     name,
+    "age":      age,
+    "contact":  contact,
+    "location": location
+    })
+
+    #adding the new student info into the variable student info for displaying purposes
     student_info.append({
-        "name":     name,
-        "age":      age,
-        "contact":  contact,
-        "location": location
-    }
-    )
+    "name":     name,
+    "age":      age,
+    "contact":  contact,
+    "location": location
+    })
 
-    #saving student info as json instead of txt
-    with open("school_system", "w") as file:
-        json.dump(student_info, file, indent=4)
+    #writing everything back to the file
+    with open("school_system.json", "w") as file:
+        json.dump(all_students, file, indent=4)
 
-    #reading student info saved as json
-    with open("school_system.json", "r") as file:
-        school_system = json.load(file)
-    
     #displaying the student info so he/she can verify if correct
     for student in student_info:
         print(f"\n{divider}")
