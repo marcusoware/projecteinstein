@@ -1,5 +1,7 @@
+import json
 #global hashes
 separator = "=" * 45
+divider = "-" * 45
 
 def main():
 
@@ -22,6 +24,7 @@ def main():
         #logics for each of the above options
         if user_choice == '1':
             take_userinfo()
+            input("")
         elif user_choice == '2':
             show_schoolinfo()
             input("")
@@ -33,7 +36,7 @@ def main():
             print("\nThank you for visiting Future Leaders Academy. Goodbye!👋")
             break
         else:
-            print("Invalid input. Please try again by entering  a number from 1-5")
+            print("\nInvalid input. Please try again by entering  a number from 1-5")
 
 #function for taking user's info
 def take_userinfo():
@@ -44,21 +47,37 @@ def take_userinfo():
         location = location.upper()
         name = name.upper()
 
-        #initialinzing user info in a list
-        student_info = []
-
-        #appending student info
-        student_info.append(
-            f"Name:     {name}\n"
-            f"Age:      {age}\n"
-            f"Contact:  {contact}\n"
-            f"Location: {location}\n\n"
-        )
-
-        with open
-
     except Exception as e:
         print(f"{e}: Please enter a valid input(NB: age must be a number)")
+
+    #initialinzing user info in a list
+    student_info = []
+
+    #storing each student info in a dictionary
+    student_info.append({
+        "name":     name,
+        "age":      age,
+        "contact":  contact,
+        "location": location
+    }
+    )
+
+    #saving student info as json instead of txt
+    with open("school_system", "w") as file:
+        json.dump(student_info, file, indent=4)
+
+    #reading student info saved as json
+    with open("school_system.json", "r") as file:
+        school_system = json.load(file)
+    
+    #displaying the student info so he/she can verify if correct
+    for student in student_info:
+        print(f"\n{divider}")
+        print(f"Name:     {student['name']}")
+        print(f"Age:      {student['age']}")
+        print(f"Contact:  {student['contact']}")
+        print(f"Location: {student['location']}")
+        print()
 
 
 #school info
