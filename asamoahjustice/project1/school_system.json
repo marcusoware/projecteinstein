@@ -1,0 +1,38 @@
+[
+    {
+        "name": "ASAMOAH",
+        "age": 20,
+        "contact": "025670000",
+        "location": "ODUOM"
+    },
+    {
+        "name": "APPIAH",
+        "age": 21,
+        "contact": "0265700555",
+        "location": "OFORIKROM"
+    },
+    {
+        "name": "MILLICENT",
+        "age": 18,
+        "contact": "0356947445",
+        "location": "TECH"
+    },
+    {
+        "name": "TONAH",
+        "age": 25,
+        "contact": "024000000",
+        "location": "EJISU"
+    },
+    {
+        "name": "OGYAM",
+        "age": 23,
+        "contact": "026578200",
+        "location": "ASOKWA"
+    },
+    {
+        "name": "OGYAM",
+        "age": 23,
+        "contact": "026578200",
+        "location": "ASOKWA"
+    }
+]
