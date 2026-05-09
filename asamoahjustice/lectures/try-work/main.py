@@ -1,4 +1,4 @@
-
+import csv
 # def main():
 #     while True:
 #         print("=" * 45)
@@ -115,10 +115,53 @@
 # main()
 # input("Press Enter to exit...")
 
-print(f"{'#':<5} {'Course':<30} {'Duration'}")
-print("-" * 45)
+# print(f"{'#':<5} {'Course':<30} {'Duration'}")
+# print("-" * 45)
 
-hashes = f"{'#':<5} {'Courses':<30} {'Duration'}"
+# hashes = f"{'#':<5} {'Courses':<30} {'Duration'}"
 
-print(hashes)
+# print(hashes)
 
+
+def add_contact(name, phone):
+    #row headers
+    fieldnames = ["name", "phone"]
+
+    all_contacts = []
+    try:
+        with open("contacts.csv", "r") as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                all_contacts.append(row)
+            
+        
+    except FileNotFoundError:
+        pass
+
+    all_contacts.append(
+        {
+            "name": name,
+            "phone": phone
+        }
+    )
+
+    with open("contacts.csv", "w", newline="") as file:
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(all_contacts)
+
+
+def read_contact():
+    try:
+        with open("contacts.csv", "r") as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                print(f"Name: {row['name']}, Phone: {row['phone']}")
+
+    except FileNotFoundError:
+        print("No contacts saved yet")
+
+
+add_contact("KOFI", "0240000000")
+add_contact("APPIAH", "0265700555")
+read_contact()
