@@ -118,6 +118,9 @@ def confirm_userinfo():
     elif confirmation == '2':
         result = get_user_info()
         name, age, contact, location = result 
+        #adding nee student aftwr the edit
+        all_students.append(new_student)
+        
 
     #else cancel
     else:
