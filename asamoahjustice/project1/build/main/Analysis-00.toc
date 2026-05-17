@@ -413,10 +413,6 @@
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ast.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
-   'PYMODULE'),
   ('subprocess',
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\subprocess.py',
@@ -425,13 +421,33 @@
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\signal.py',
    'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
+   'PYMODULE'),
   ('stringprep',
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
    'PYMODULE'),
-  ('_py_abc',
+  ('tracemalloc',
    'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\scanner.py',
    'PYMODULE')],
  [('python311.dll',
    'C:\\Users\\Asamoah '
@@ -479,37 +495,9 @@
    'C:\\Users\\Asamoah '
    'Justice\\Desktop\\Python-Class\\projecteinstein\\asamoahjustice\\project1\\build\\main\\base_library.zip',
    'DATA')],
- [('codecs',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\codecs.py',
-   'PYMODULE'),
-  ('warnings',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\warnings.py',
-   'PYMODULE'),
-  ('_weakrefset',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_weakrefset.py',
-   'PYMODULE'),
-  ('genericpath',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\genericpath.py',
-   'PYMODULE'),
-  ('os',
+ [('os',
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\os.py',
-   'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sre_constants.py',
-   'PYMODULE'),
-  ('keyword',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\keyword.py',
-   'PYMODULE'),
-  ('copyreg',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\copyreg.py',
    'PYMODULE'),
   ('re._parser',
    'C:\\Users\\Asamoah '
@@ -531,49 +519,37 @@
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\re\\__init__.py',
    'PYMODULE'),
-  ('collections.abc',
+  ('linecache',
    'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\collections\\abc.py',
-   'PYMODULE'),
-  ('collections',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\collections\\__init__.py',
-   'PYMODULE'),
-  ('enum',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\enum.py',
-   'PYMODULE'),
-  ('traceback',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\traceback.py',
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\linecache.py',
    'PYMODULE'),
   ('sre_parse',
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sre_parse.py',
    'PYMODULE'),
-  ('weakref',
+  ('enum',
    'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\weakref.py',
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\enum.py',
    'PYMODULE'),
-  ('linecache',
+  ('io',
    'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\linecache.py',
-   'PYMODULE'),
-  ('_collections_abc',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_collections_abc.py',
-   'PYMODULE'),
-  ('operator',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\operator.py',
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\io.py',
    'PYMODULE'),
   ('sre_compile',
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sre_compile.py',
    'PYMODULE'),
-  ('io',
+  ('sre_constants',
    'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\io.py',
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sre_constants.py',
+   'PYMODULE'),
+  ('stat',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stat.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_collections_abc.py',
    'PYMODULE'),
   ('reprlib',
    'C:\\Users\\Asamoah '
@@ -583,21 +559,37 @@
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\heapq.py',
    'PYMODULE'),
-  ('functools',
+  ('collections.abc',
    'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\functools.py',
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\collections\\abc.py',
+   'PYMODULE'),
+  ('collections',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\collections\\__init__.py',
+   'PYMODULE'),
+  ('traceback',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\traceback.py',
    'PYMODULE'),
   ('posixpath',
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\posixpath.py',
    'PYMODULE'),
-  ('types',
-   'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\types.py',
-   'PYMODULE'),
   ('ntpath',
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ntpath.py',
+   'PYMODULE'),
+  ('abc',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\abc.py',
+   'PYMODULE'),
+  ('copyreg',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\copyreg.py',
+   'PYMODULE'),
+  ('types',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\types.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\Asamoah '
@@ -1087,15 +1079,39 @@
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('stat',
+  ('_weakrefset',
    'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stat.py',
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_weakrefset.py',
+   'PYMODULE'),
+  ('warnings',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\warnings.py',
    'PYMODULE'),
   ('locale',
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\locale.py',
    'PYMODULE'),
-  ('abc',
+  ('keyword',
    'C:\\Users\\Asamoah '
-   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\abc.py',
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\keyword.py',
+   'PYMODULE'),
+  ('codecs',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\codecs.py',
+   'PYMODULE'),
+  ('functools',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\functools.py',
+   'PYMODULE'),
+  ('genericpath',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\genericpath.py',
+   'PYMODULE'),
+  ('operator',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\operator.py',
+   'PYMODULE'),
+  ('weakref',
+   'C:\\Users\\Asamoah '
+   'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\weakref.py',
    'PYMODULE')])

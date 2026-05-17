@@ -1,5 +1,5 @@
 ('C:\\Users\\Asamoah '
- 'Justice\\Desktop\\Python-Class\\projecteinstein\\asamoahjustice\\project1\\main.exe',
+ 'Justice\\Desktop\\Python-Class\\projecteinstein\\asamoahjustice\\project1\\dist\\main.exe',
  True,
  False,
  False,
@@ -117,7 +117,7 @@
  [],
  False,
  False,
- 1777717814,
+ 1778926781,
  [('run.exe',
    'C:\\Users\\Asamoah '
    'Justice\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
