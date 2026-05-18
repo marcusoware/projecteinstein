@@ -52,5 +52,23 @@
         "age": 26,
         "contact": "0249480631",
         "location": "KUMASI"
+    },
+    {
+        "name": "ASAMOAH JUSTICE",
+        "age": 20,
+        "contact": "0256700693",
+        "location": "ANWOMASO, ODUOM"
+    },
+    {
+        "name": "ASAMOAH JUSTICE",
+        "age": 202,
+        "contact": "0256666666",
+        "location": "KKKK"
+    },
+    {
+        "name": "EVANS APPIAH",
+        "age": 30,
+        "contact": "0256700693",
+        "location": "KAFO KDO"
     }
 ]
