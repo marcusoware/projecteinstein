@@ -27,6 +27,8 @@ def get_user_info():
                     print("Age must be a number!")
                     continue
 
+            if field == "name":
+                if len(
             if field in ("name", "location"):
                 value = value.upper()
 
